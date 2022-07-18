@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: gray;
+
+}
+
+.calculator{
+  width: 255px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  padding: 5px;
+  background-color:rgb(85, 84, 84);
+  box-shadow: 5px 10px 15px;
+}
+
+table td {
+    display: inline-block;
+
+}
+
+.btn{
+    margin: 5px;
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+    border:none;
+    border-radius: 30px;
+    background-color:black;
+    color:azure;
+    font-size:15px;
+    transition: all 500ms ease-in-out;
+     
+}
+.btn-ac {
+    margin: 5px;
+    height: 45px;
+    width:  109px;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: rgb(131, 129, 129);
+    color:azure;
+    font-size:15px;
+    transition: all 500ms ease-in-out;
+}
+.btn-igual{
+    margin: 5px;
+    height: 45px;
+    width:  109px;
+    cursor: pointer;
+    border-radius: 60px;
+    background-color: rgb(131, 129, 129);
+    color:azure;
+    font-size:15px;
+    transition: all 500ms ease-in-out;
+}
+.btn:hover{
+    background-color:rgb(156, 155, 155);
+}
+.btn-ac:hover{
+    background-color:rgb(42, 42, 42);
+}
+.btn-igual:hover{
+    background-color:rgb(41, 41, 41);
+}
+.especial {
+    background-color: rgb(131, 129, 129);
+}
+.especial:hover{
+    background-color: rgb(42, 42, 42);
+}
+.result{
+    height: 100px;
+    color: #fff;
+    text-align: right;
+    font-size:35px;
+    word-wrap: break-word;
+    border-bottom: 2px solid rgb(42, 42, 42);
+}
